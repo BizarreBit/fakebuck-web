@@ -1,0 +1,5 @@
+(Create new react project)
+  >npx create-react-app fakebuck-web
+(Remove unnecessity and customize)
+  public/*
+  src/*
