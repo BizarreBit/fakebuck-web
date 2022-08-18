@@ -1,6 +1,8 @@
+import Router from './template/Router';
+
 function App() {
   return (
-    <div></div>
+    <Router/>
   );
 }
 

@@ -3,3 +3,14 @@
 (Remove unnecessity and customize)
   public/*
   src/*
+(Set fakebuck template)
+  >npm i @fortawesome/fontawesome-free @popperjs/core bootstrap react-router-dom
+  src/templete/*
+  src/index.css --> custom class
+  src/index.js -->
+    #import { BrowserRouter } from "react-router-dom";
+    #import 'bootstrap/dist/css/bootstrap.min.css';
+    #import '@fortawesome/fontawesome-free/css/all.min.css';
+    #<BrowserRouter>
+      <App />
+    </BrowserRouter>
